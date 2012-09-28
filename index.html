@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Codebreaker</title>
+	<meta name="author" content="Simon Caplette">
+	<link rel="stylesheet" href="css/codebreaker.css" type="text/css" media="screen" />
+</head>
+<body>
+	<h1>Codebreaker</h1>
+	<div class="container">
+		<div class="span-24">
+			<p>Code breaking is all about finding the secret code.</p>
+			<p>Your mission is no different!</p>
+			<p>You have to implement a simple program that fulfill
+				the basic following requirements:</p>
+			<ul>
+				<li>When the game starts I should be able to guess the secret code by providing
+				a 4 digits number</li>	
+				<li>The game finishes when I have found the exact match for the secret code</li>
+				<li>The game will return a <strong>+</strong> sign for an <strong>exact match</strong></li>
+				<li>The game will return a <strong>-</strong> sign for a <strong>digit match</strong></li>
+				<li>An <strong>exact match</strong> is a digit that matches a digit of the secret code both in value and in position</li>
+				<li>A <strong>digit match</strong> is a digit that matches a digit of the secret code in value but does not have the correct position</li>
+			</ul>
+			
+			<pre>Example: Let us say the secret code is <strong>1234</strong>. 
+         If you provide <strong>1245</strong> the program should 
+         return the string <strong>'++-'</strong> indicating 
+         two exact matches (1,2) and one digit match (4)</pre>	
+
+		</div>
+	</div>
+</body>
+</html>
